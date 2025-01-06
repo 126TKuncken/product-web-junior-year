@@ -1,0 +1,33 @@
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.color-swatch {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.color-swatch:hover {
+    border: 2px solid #000;
+}
+
+
+.bg-red { background-color: #ff4d4d; }
+.bg-green { background-color: #4dff4d; }
+.bg-blue { background-color: #4d4dff; }
+.bg-yellow { background-color: #ffff4d; }
+.bg-gray { background-color: #bfbfbf; }
+.bg-black { background-color: #000; }
+.bg-white { background-color: #fff; }
+.bg-pink { background-color: #ff99cc; }
+.bg-purple { background-color: #cc99ff; }
