@@ -1,118 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Website</title>
-  
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-  
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product websites</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="#">TK's Baseball Supply</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+      <a class="navbar-brand" href="#">Cleat/Shoelab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <section id="home" class="hero-section text-center bg-light py-5">
+    <div class="container">
+      <h1 class="display-4">Cleat/Shoelab</h1>
+      <p class="lead">All Types Of Footwear</p>
+    </div>
+  </section>
+
+
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Collection</h2>
+      <div class="row">
+       
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/download (2).jpg" class="card-img-middle" alt="Baseballl Cleats">
+            <div class="card-body">
+              <h5 class="card-title">Baseball Cleats</h5>
+              <p class="card-text">$350</p>
+              <div class="color-swatches">
+                <button class="swatch bg-primary" data-color="blue"></button>
+                <button class="swatch bg-danger" data-color="red"></button>
+                <button class="swatch bg-dark" data-color="black"></button>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</nav>
-
-<section class="hero bg-primary text-white text-center py-5">
-    <div class="container">
-        <h1>TK's Baseball </h1>
-        <p>At TK's Baseball Supply, baseball isn’t just a sport—it’s a way of life. Founded with a passion for America’s favorite pastime, we specialize in providing high-quality baseball gear for players of all ages and skill levels. From the perfect glove to precision-engineered bats, our carefully curated collection is designed to enhance your performance on the field.
-
-            We know the game because we live it. Whether you’re a budding Little Leaguer, a seasoned pro, or a loyal fan cheering from the stands, our mission is to equip you with the tools and accessories to elevate your experience. Our team is dedicated to delivering exceptional service, expert advice, and products that meet the highest standards.
-            
-            Step up to the plate with confidence—because at TK's Baseball, we’ve got your back, from the dugout to the diamond. Let’s play ball! ⚾</p>
-    </div>
-</section>
-
-
-<section id="products" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Our Products</h2>
-        <div class="row gy-4">
-          
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/2024VictusPencilUSA_-10_25_8_BaseballBat-VSBVIBP10USA_Front_800x_jpg_530x@2x.webp" class="card-img-top" alt="Product 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Victus Pencil BAT</h5>
-                        <p class="card-text">$150</p>
-                        <div class="color-swatches">
-                            <span class="color-swatch bg-red" data-product="product1" title="Red"></span>
-                            <span class="color-swatch bg-green" data-product="product1" title="Green"></span>
-                            <span class="color-swatch bg-blue" data-product="product1" title="Blue"></span>
-                        </div>
-                    </div>
-                </div>
+   
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/download.jpg" class="card-img-top" alt="Jordans">
+            <div class="card-body">
+              <h5 class="card-title">Jordans</h5>
+              <p class="card-text">$450</p>
+              <div class="color-swatches">
+                <button class="swatch bg-success" data-color="green"></button>
+                <button class="swatch bg-warning" data-color="yellow"></button>
+                <button class="swatch bg-secondary" data-color="gray"></button>
+              </div>
             </div>
-     
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/WBL2967010__de703c717a93e67fdf833e79b28d4033.webp" class="card-img-top" alt="Product 2">
-                    <div class="card-body">
-                        <h5 class="card-title">2025 Luisville Select PWR</h5>
-                        <p class="card-text">$400</p>
-                        <div class="color-swatches">
-                            <span class="color-swatch bg-yellow" data-product="product2" title="Yellow"></span>
-                            <span class="color-swatch bg-gray" data-product="product2" title="Gray"></span>
-                            <span class="color-swatch bg-black" data-product="product2" title="Black"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/wbw101677.avif" class="card-img-top" alt="Product 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Wilson A200 1786 Cotton Candy Glove</h5>
-                        <p class="card-text">$300</p>
-                        <div class="color-swatches">
-                            <span class="color-swatch bg-white" data-product="product3" title="White"></span>
-                            <span class="color-swatch bg-pink" data-product="product3" title="Pink"></span>
-                            <span class="color-swatch bg-purple" data-product="product3" title="Purple"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</section>
-
-<section id="contact" class="py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Contact Us</h2>
-        <form>
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="col-md-6 mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
+  
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="img/download (1).jpg" class="card-img-top" alt="Slides">
+            <div class="card-body">
+              <h5 class="card-title">Slides</h5>
+              <p class="card-text">$250</p>
+              <div class="color-swatches">
+                <button class="swatch bg-dark" data-color="black"></button>
+                <button class="swatch bg-brown" data-color="brown"></button>
+              </div>
             </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
 
 
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 ShoesHub. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
